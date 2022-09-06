@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine:bold,bolditalic|Inconsolata:italic|Droid+Sans|Cantarell:bold,bolditalic');
+
+body {
+    font-family: 'Cantarell';
+    font-size: 1.2rem;
+    background-image: url(../../imagenes/fondo4.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+   }
+h2 {
+    font-family: 'Cantarell';
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    color: bisque;
+    }
+    h2:hover,.fab:hover{
+   animation-name:title;
+   animation-duration:3s;
+   animation-timing-function:linear;
+   animation-iteration-count:infinite;
+   animation-play-state:running;
+   -moz-animation-name:title;
+   -moz-animation-duration:3s;
+   -moz-animation-timing-function:linear;
+   -moz-animation-iteration-count:infinite;
+   -moz-animation-play-state:running;
+   -webkit-animation-name:title;
+   -webkit-animation-duration:3s;
+   -webkit-animation-timing-function:linear;
+   -webkit-animation-iteration-count:infinite;
+   -webkit-animation-play-state:running;
+   -ms-animation-name:title;
+   -ms-animation-duration:3s;
+   -ms-animation-timing-function:linear;
+   -ms-animation-iteration-count:infinite;
+   -ms-animation-play-state:running;
+   -o-animation-name:title;
+   -o-animation-duration:3s;
+   -o-animation-timing-function:linear;
+   -o-animation-iteration-count:infinite;
+   -o-animation-play-state:running;
+}
+@keyframes title
+{
+0%   {color:red; }
+25%  {color:yellow;  }
+50%  {color:blue; font-size: 1.7em; }
+75%  {color:green;  }
+100% {color:red; }
+}
+@-moz-keyframes title /* Firefox */
+{
+    0%   {color:red; }
+    25%  {color:yellow;  }
+    50%  {color:blue; font-size: 1.7em; }
+    75%  {color:green;  }
+    100% {color:red; }
+}
+@-webkit-keyframes title /* Safari y Chrome */
+{
+    0%   {color:red; }
+    25%  {color:yellow;  }
+    50%  {color:blue; font-size: 1.7em; }
+    75%  {color:green;  }
+    100% {color:red; }
+}
+@-ms-keyframes title /* Edge */
+{
+    0%   {color:red; }
+    25%  {color:yellow;  }
+    50%  {color:blue; font-size: 1.7em; }
+    75%  {color:green;  }
+    100% {color:red; }
+}
+@-o-keyframes title /* Opera */
+{
+    0%   {color:red; }
+    25%  {color:yellow;  }
+    50%  {color:blue; font-size: 1.7em; }
+    75%  {color:green;  }
+    100% {color:red; }
+}
+.container{
+    width: 90vw;
+    height: 50vw;
+    margin: auto;
+    background-color: rgb(49, 51, 51);
+    opacity: 75%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.8);
+    }
+
+
+.redes{
+    margin: 3px; 
+    padding: 3px;
+    background-color: #08080800;
+    color: #f9f7f7;
+}
+.bar_red {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    vertical-align: bottom;
+    padding-left: 0px;
+}
+button {
+    padding: 1rem;
+    margin: 4rem;
+    border-radius: 2rem;
+    border: none;
+    font-family: 'Cantarell';
+    background-image: linear-gradient(to right, rgb(105, 106, 107), rgb(56, 46, 56));
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+p, button {
+    color: rgb(0, 6, 4);
+    text-align: center;
+    font-size: 1rem;
+}
+.green{
+    margin: 3em;
+    width: 40%;
+    height: 25%;
+    text-align: center;
+    color: black;   
+    background-image: linear-gradient(to right, rgb(143, 147, 147), rgb(3, 117, 137));
+    width: auto;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(195, 205, 195);
+}
+
+footer {
+    /*background-color: #080808;*/
+    color: #f9f7f7;
+    display: block ;
+    }
+img{
+    width: 100%;
+}
+
+section{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: 80%;
+    align-items: center;
+    }
+article{
+    margin: 4em;
+    width: 50%;
+    height: 90%;
+    text-align: justify;
+}
+aside{
+    margin: 4em;
+    width: 40%;
+    height: 30%;
+    text-align: justify;
+    color: black;   
+    background-image: linear-gradient(to right, whitesmoke, rgb(122, 122, 122));
+    margin: 2 auto;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+/*p{
+    color: #080808;
+    font-size: 1rem;
+}
