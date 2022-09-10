@@ -167,8 +167,6 @@ aside{
     text-align: justify;
     color: black;   
     background-image: linear-gradient(to right, whitesmoke, rgb(122, 122, 122));
-    margin: 2 auto;
-    padding: 1.5rem;
     border-radius: 10px;
 }
 /*p{
