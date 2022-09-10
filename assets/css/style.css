@@ -154,14 +154,15 @@ section{
     align-items: center;
     }
 article{
-    margin: 4em;
-    width: 38%;
+    margin: 1.5em;
+    width: 40%;
     height: 90%;
     text-align: justify;
 }
+
 aside{
-    margin: 4em;
-    width: 38%;
+    margin: 1.5em;
+    width: 40%;
     height: 30%;
     text-align: justify;
     color: black;   
